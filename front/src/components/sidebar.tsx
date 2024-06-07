@@ -15,7 +15,7 @@ export default function Sidebar() {
                 </div>
                 <ul className={'flex flex-col mt-4'}>
                     <li>
-                        <a href="" className={'flex gap-1 rounded-xl p-3 font-bold hover:bg-gray-200 transition-all'}>
+                        <a href="" className={'flex gap-1 rounded-xl p-3 font-bold transition-all  hover:bg-gray-200/50 border border-transparent hover:border-gray-300'}>
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 48 48">
                                 <rect width="48" height="48" fill="none" />
                                 <path fill="#e8eaf6" d="M42 39H6V23L24 6l18 17z" />
@@ -29,7 +29,7 @@ export default function Sidebar() {
                         </a>
                     </li>
                     <li>
-                        <a href="" className={'flex gap-1 rounded-xl p-3 font-bold hover:bg-gray-200 transition-all'}>
+                        <a href="" className={'flex gap-1 rounded-xl p-3 font-bold transition-all  hover:bg-gray-200/50 border border-transparent hover:border-gray-300'}>
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 36 36">
                                 <rect width="36" height="36" fill="none" />
                                 <circle cx="18" cy="18" r="18" fill="#f4900c" />
@@ -44,7 +44,7 @@ export default function Sidebar() {
                         </a>
                     </li>
                     <li>
-                        <a href="" className={'flex gap-1 rounded-xl p-3 font-bold hover:bg-gray-200 transition-all'}>
+                        <a href="" className={'flex gap-1 rounded-xl p-3 font-bold transition-all  hover:bg-gray-200/50 border border-transparent hover:border-gray-300'}>
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 36 36">
                                 <rect width="36" height="36" fill="none" />
                                 <path fill="#aab8c2" d="M35 26a4 4 0 0 1-4 4H5a4 4 0 0 1-4-4V6.313C1 4.104 6.791 0 9 0h20.625C32.719 0 35 2.312 35 5.375z" />
@@ -63,7 +63,7 @@ export default function Sidebar() {
                         </a>
                     </li>
                     <li>
-                        <a href="" className={'flex gap-1 rounded-xl p-3 font-bold hover:bg-gray-200 transition-all'}>
+                        <a href="" className={'flex gap-1 rounded-xl p-3 font-bold transition-all  hover:bg-gray-200/50 border border-transparent hover:border-gray-300'}>
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 64 64">
                                 <rect width="64" height="64" fill="none" />
                                 <path fill="#405866" d="M39.681 16.442a2.257 2.257 0 0 0 2.771 1.588l7.588-2.057a2.255 2.255 0 0 0 1.589-2.767l-1.377-5.092a2.26 2.26 0 0 0-2.772-1.59l-7.588 2.057a2.262 2.262 0 0 0-1.589 2.771zm-15.269.139a2.26 2.26 0 0 1-2.769 1.586l-7.587-2.057a2.255 2.255 0 0 1-1.591-2.767l1.378-5.091a2.259 2.259 0 0 1 2.772-1.588l7.586 2.057a2.258 2.258 0 0 1 1.591 2.769z" />
@@ -101,7 +101,7 @@ export default function Sidebar() {
                         </a>
                     </li>
                     <li>
-                        <a href="" className={'flex gap-1 rounded-xl p-3 font-bold hover:bg-gray-200 transition-all'}>
+                        <a href="" className={'flex gap-1 rounded-xl p-3 font-bold transition-all  hover:bg-gray-200/50 border border-transparent hover:border-gray-300'}>
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 128 128">
                                 <rect width="128" height="128" fill="none" />
                                 <radialGradient id="notoFire0" cx="68.884" cy="124.296" r="70.587" gradientTransform="matrix(-1 -.00434 -.00713 1.6408 131.986 -79.345)" gradientUnits="userSpaceOnUse">
@@ -138,7 +138,14 @@ export default function Sidebar() {
                     {
                         [1, 2, 4, 5, 6].map(() => {
                             return <li>
-                                <a href="" className={'flex gap-1 rounded-xl p-1.5 text-blue-500 px-3 font-bold hover:bg-gray-200 transition-all'}>
+                                <a href="" className={'flex gap-1 rounded-xl p-1.5 text-blue-500 px-3 font-bold hover:bg-gray-200/50 border border-transparent hover:border-gray-300 transition-all'}>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                        <rect width="24" height="24" fill="none" />
+                                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                                            <path d="m3 17l6-6l4 4l8-8" />
+                                            <path d="M17 7h4v4" />
+                                        </g>
+                                    </svg>
                                     <span className={'font-bold tracking-tight'}>#politik</span>
                                 </a>
                             </li>
