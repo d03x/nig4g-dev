@@ -2,7 +2,7 @@ import { cn } from '../utils';
 
 export default function Sidebar() {
     return <>
-        <aside className={'fixed overflow-y-scroll bg-neutral-50 hidden sm:block left-0 max-w-xs h-full pt-14 w-full'}>
+        <aside className={'fixed overflow-y-scroll z-10 bg-neutral-50 hidden sm:block left-0 max-w-xs h-full pt-14 w-full'}>
             <div className={cn('container px-3')}>
                 <div className="p-4 hidden border border-black space-y-3 bg-white text-center rounded-lg">
                     <h2 className={'text-2xl font-semibold'}>Gabung Di Nig49</h2>
@@ -129,7 +129,7 @@ export default function Sidebar() {
                 </ul>
                 <div className="flex my-3 items-center">
 
-                    <span className={'px-2 rounded text-xs uppercase leading-none text-gray-400 font-bold'}>Hastag</span>
+                    <span className={'px-2 rounded text-xs uppercase leading-none whitespace-nowrap text-gray-400 font-bold'}>Trending Top</span>
 
                     <div className="h-1 rounded-lg w-full bg-gray-100"></div>
                 </div>
@@ -146,7 +146,13 @@ export default function Sidebar() {
                                             <path d="M17 7h4v4" />
                                         </g>
                                     </svg>
+                                    <div>
+                                        
                                     <span className={'font-bold tracking-tight'}>#politik</span>
+                                    <p className={'text-xs text-gray-500'}>
+                                        {(1900).toLocaleString('id-id')} Post
+                                    </p>
+                                    </div>
                                 </a>
                             </li>
                         })

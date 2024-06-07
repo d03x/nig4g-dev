@@ -172,7 +172,7 @@ export default function PostContent() {
 
                     </div>
                     <div className="">
-                        <img width={'100%'} class={'cursor-pointer'} src="https://scontent.fbdo12-1.fna.fbcdn.net/v/t39.30808-6/447206274_122110312544329642_2470718507726785606_n.jpg?stp=dst-jpg_s640x640&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGeXDVqMgOZpxi0NlJUXsWsHujmud1U6fEe6Oa53VTp8Yvlicf7PVhD288_o-zU8MGuOgi-Y1zUWaOmGYAig1TB&_nc_ohc=bwDwkosu5pIQ7kNvgHHoQTt&_nc_zt=23&_nc_ht=scontent.fbdo12-1.fna&oh=00_AYCePpEoL-8gm-fY9w9qD2sPGc7mBDflKRJw32acYwrDVw&oe=66688A99" alt="" />
+                        <img width={'100%'} class={'cursor-pointer'} src="https://qph.cf2.quoracdn.net/main-qimg-70cf9649fa636df3cca22493b8f8b63d-lq" alt="" />
                     </div>
                     <div className={'flex px-3 flex-col space-y-2 items-start justify-start'}>
 
