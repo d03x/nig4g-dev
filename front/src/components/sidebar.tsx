@@ -2,7 +2,7 @@ import { cn } from '../utils';
 
 export default function Sidebar() {
     return <>
-        <aside className={'fixed overflow-y-scroll z-10 bg-neutral-50 hidden sm:block left-0 max-w-xs h-full pt-14 w-full'}>
+        <aside className={'fixed overflow-y-scroll z-10 bg-neutral-50 hidden lg:block left-0 max-w-xs h-full pt-14 w-full'}>
             <div className={cn('container px-3')}>
                 <div className="p-4 hidden border border-black space-y-3 bg-white text-center rounded-lg">
                     <h2 className={'text-2xl font-semibold'}>Gabung Di Nig49</h2>
@@ -15,8 +15,8 @@ export default function Sidebar() {
                 </div>
                 <ul className={'flex flex-col mt-4'}>
                     <li>
-                        <a href="" className={'flex gap-1 rounded-xl p-3 font-bold transition-all  hover:bg-gray-200/50 border border-transparent hover:border-gray-300'}>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 48 48">
+                        <a href="" className={'flex text-sm gap-1 rounded-xl p-3 font-bold transition-all  hover:bg-gray-200/50 border border-transparent hover:border-gray-300'}>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 48 48">
                                 <rect width="48" height="48" fill="none" />
                                 <path fill="#e8eaf6" d="M42 39H6V23L24 6l18 17z" />
                                 <path fill="#c5cae9" d="m39 21l-5-5V9h5zM6 39h36v5H6z" />
@@ -25,12 +25,12 @@ export default function Sidebar() {
                                 <path fill="#01579b" d="M21 17h6v6h-6z" />
                                 <path fill="#ff8a65" d="M27.5 35.5c-.3 0-.5.2-.5.5v2c0 .3.2.5.5.5s.5-.2.5-.5v-2c0-.3-.2-.5-.5-.5" />
                             </svg>
-                            <span>Home</span>
+                            <span className={'font-semibold'}>Home</span>
                         </a>
                     </li>
                     <li>
-                        <a href="" className={'flex gap-1 rounded-xl p-3 font-bold transition-all  hover:bg-gray-200/50 border border-transparent hover:border-gray-300'}>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 36 36">
+                        <a href="" className={'flex text-sm gap-1 rounded-xl p-3 font-bold transition-all  hover:bg-gray-200/50 border border-transparent hover:border-gray-300'}>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 36 36">
                                 <rect width="36" height="36" fill="none" />
                                 <circle cx="18" cy="18" r="18" fill="#f4900c" />
                                 <circle cx="18" cy="18" r="14.5" fill="#ffd983" />
@@ -40,12 +40,13 @@ export default function Sidebar() {
                                 <path fill="#dd2e44" d="M18.657 15.267L9.879 9.886l5.38 8.779z" />
                                 <circle cx="18" cy="18.008" r="3.055" fill="#8899a6" />
                                 <circle cx="18" cy="18.008" r="1.648" fill="#f5f8fa" />
-                            </svg>                            <span>Explore</span>
+                            </svg>
+                            <span className={'font-semibold'}>Explore</span>
                         </a>
                     </li>
                     <li>
-                        <a href="" className={'flex gap-1 rounded-xl p-3 font-bold transition-all  hover:bg-gray-200/50 border border-transparent hover:border-gray-300'}>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 36 36">
+                        <a href="" className={'flex text-sm gap-1 rounded-xl p-3 font-bold transition-all  hover:bg-gray-200/50 border border-transparent hover:border-gray-300'}>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 36 36">
                                 <rect width="36" height="36" fill="none" />
                                 <path fill="#aab8c2" d="M35 26a4 4 0 0 1-4 4H5a4 4 0 0 1-4-4V6.313C1 4.104 6.791 0 9 0h20.625C32.719 0 35 2.312 35 5.375z" />
                                 <path fill="#f5f8fa" d="M33 30a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V6c0-4.119-.021-4 5-4h21a4 4 0 0 1 4 4z" />
@@ -59,12 +60,12 @@ export default function Sidebar() {
                                 </g>
                                 <path fill="#f5f8fa" d="M15 2h12v2H15z" />
                             </svg>
-                            <span>Disimpan</span>
+                            <span className={'font-semibold'}>Disimpan</span>
                         </a>
                     </li>
                     <li>
-                        <a href="" className={'flex gap-1 rounded-xl p-3 font-bold transition-all  hover:bg-gray-200/50 border border-transparent hover:border-gray-300'}>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 64 64">
+                        <a href="" className={'flex text-sm gap-1 rounded-xl p-3 font-bold transition-all  hover:bg-gray-200/50 border border-transparent hover:border-gray-300'}>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 64 64">
                                 <rect width="64" height="64" fill="none" />
                                 <path fill="#405866" d="M39.681 16.442a2.257 2.257 0 0 0 2.771 1.588l7.588-2.057a2.255 2.255 0 0 0 1.589-2.767l-1.377-5.092a2.26 2.26 0 0 0-2.772-1.59l-7.588 2.057a2.262 2.262 0 0 0-1.589 2.771zm-15.269.139a2.26 2.26 0 0 1-2.769 1.586l-7.587-2.057a2.255 2.255 0 0 1-1.591-2.767l1.378-5.091a2.259 2.259 0 0 1 2.772-1.588l7.586 2.057a2.258 2.258 0 0 1 1.591 2.769z" />
                                 <path fill="#354a54" d="M30.442 10.674c.551 1.492 1.229 3.47 1.6 5.536c.394 2.228-.437 3.454-2 4.824c-.458.397-.614.984-.412 1.535c.213.563.764.957 1.342.957c.333 0 .652-.124.923-.362c1.333-1.161 2.329-2.245 2.855-3.769c.626-1.801.115-3.903-.263-5.438c-.422-1.712-1.036-3.387-1.634-5.01l-.166-.445c-.89-2.418-1.102-4.239.421-6.4c.309-.445.354-.962.119-1.421c-.458-.881-1.851-1.035-2.453-.179c-.87 1.232-1.754 2.781-1.719 4.907c.032 1.653.615 3.2 1.179 4.698l.213.565" />
@@ -97,12 +98,12 @@ export default function Sidebar() {
                                     <path d="M57.32 25.318a2.744 2.744 0 0 1-2.745 2.74a2.74 2.74 0 0 1 0-5.479a2.742 2.742 0 0 1 2.745 2.739m-7.464 2.116a2.74 2.74 0 0 1-5.478 0a2.742 2.742 0 0 1 2.739-2.745a2.742 2.742 0 0 1 2.739 2.745" />
                                 </g>
                             </svg>
-                            <span>Game</span>
+                            <span className={'font-semibold'}>Game</span>
                         </a>
                     </li>
                     <li>
-                        <a href="" className={'flex gap-1 rounded-xl p-3 font-bold transition-all  hover:bg-gray-200/50 border border-transparent hover:border-gray-300'}>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 128 128">
+                        <a href="" className={'flex text-sm gap-1 rounded-xl p-3 font-bold transition-all  hover:bg-gray-200/50 border border-transparent hover:border-gray-300'}>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 128 128">
                                 <rect width="128" height="128" fill="none" />
                                 <radialGradient id="notoFire0" cx="68.884" cy="124.296" r="70.587" gradientTransform="matrix(-1 -.00434 -.00713 1.6408 131.986 -79.345)" gradientUnits="userSpaceOnUse">
                                     <stop offset=".314" stop-color="#ff9800" />
@@ -123,7 +124,7 @@ export default function Sidebar() {
                                 </radialGradient>
                                 <path fill="url(#notoFire1)" d="M76.11 77.42c-9.09-11.7-5.02-25.05-2.79-30.37c.3-.7-.5-1.36-1.13-.93c-3.91 2.66-11.92 8.92-15.65 17.73c-5.05 11.91-4.69 17.74-1.7 24.86c1.8 4.29-.29 5.2-1.34 5.36c-1.02.16-1.96-.52-2.71-1.23a16.09 16.09 0 0 1-4.44-7.6c-.16-.62-.97-.79-1.34-.28c-2.8 3.87-4.25 10.08-4.32 14.47C40.47 113 51.68 124 65.24 124c17.09 0 29.54-18.9 19.72-34.7c-2.85-4.6-5.53-7.61-8.85-11.88" />
                             </svg>
-                            <span>Trending</span>
+                            <span className={'font-semibold'}>Trending</span>
                         </a>
                     </li>
                 </ul>
@@ -139,7 +140,7 @@ export default function Sidebar() {
                         [1, 2, 4, 5, 6].map(() => {
                             return <li>
                                 <a href="" className={'flex gap-1 rounded-xl p-1.5 text-blue-500 px-3 font-bold hover:bg-gray-200/50 border border-transparent hover:border-gray-300 transition-all'}>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
                                         <rect width="24" height="24" fill="none" />
                                         <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
                                             <path d="m3 17l6-6l4 4l8-8" />
@@ -170,7 +171,7 @@ export default function Sidebar() {
                         [1, 2, 4, 5, 6].map(() => {
                             return <li>
                                 <a href="" className={'flex gap-2 rounded-xl p-1.5 text-gray-800 hover:text-blue-500 px-3 font-semibold text-sm transition-all'}>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
                                         <rect width="24" height="24" fill="none" />
                                         <path fill="currentColor" d="m9.198 11.958l.716-.221zm.348-1.09l-.456-.595zm.373 3.427l-.717.221zm4.139 0l-.717-.221zm.373-3.427l-.455.596zm.348 1.09l.717.221zm-2.184-2.494l.455-.596zm-1.213 0l.456.595zm8.803 8.286a.75.75 0 0 0 0-1.5zm-5.406 1.985l-.711-.237zm-1.299 1.528a.75.75 0 1 0 1.423.474zM3.998 16.25a.75.75 0 0 0 0 1.5zm5.405 3.485l.712-.237zm-.124 2.002a.75.75 0 0 0 1.423-.474zm-1.058-4.36l-.44.609zM5.556 5.46a.75.75 0 0 0-1.449.388zM5.25 7.215l-.725.194zM3.592 11.59l-.414-.626zm-1.965.399a.75.75 0 1 0 .828 1.251zm18.307-6.14a.75.75 0 0 0-1.449-.388zm-1.143 1.367l-.724-.194zm1.658 4.374l-.413.625zm1.137 1.65a.75.75 0 0 0 .828-1.251zM16.09 3.836a.75.75 0 0 0-.864-1.226zm-1.752.319l.432.612zm-4.672-.051l-.446.603zm-1.05-1.707a.75.75 0 1 0-.891 1.206zm6.163 8.97l-.716.222zm-5.581 0l.716.222zM21.227 12c0 5.11-4.137 9.25-9.238 9.25v1.5c5.931 0 10.738-4.814 10.738-10.75zm-9.238 9.25c-5.102 0-9.239-4.14-9.239-9.25h-1.5c0 5.936 4.807 10.75 10.739 10.75zM2.75 12c0-5.11 4.137-9.25 9.239-9.25v-1.5C6.057 1.25 1.25 6.064 1.25 12zm9.239-9.25c5.1 0 9.238 4.14 9.238 9.25h1.5c0-5.936-4.807-10.75-10.738-10.75zm.15 7.31l1.837 1.404l.911-1.191l-1.837-1.405zm1.924 1.677l-.722 2.337l1.434.442l.72-2.337zm-.96 2.513h-2.23v1.5h2.23zm-2.467-.176l-.722-2.337l-1.433.442l.721 2.337zM10 11.464l1.837-1.405l-.911-1.191l-1.837 1.405zm10.184 4.786H18.57v1.5h1.615zm-6.117 3.248l-.588 1.765l1.423.474l.588-1.765zm4.502-3.248c-.678 0-1.25-.001-1.715.052c-.484.055-.929.176-1.332.467l.878 1.217c.12-.087.284-.155.625-.194c.36-.04.831-.042 1.544-.042zm-3.08 3.722c.226-.676.376-1.124.53-1.453c.144-.312.26-.447.38-.533l-.877-1.217c-.404.292-.659.675-.864 1.118c-.198.425-.377.968-.591 1.611zM3.999 17.75h1.615v-1.5H3.998zm4.694 2.222l.587 1.765l1.423-.474l-.587-1.765zm-3.08-2.222c.713 0 1.184.001 1.545.042c.34.04.505.107.625.194l.878-1.217c-.404-.29-.849-.412-1.333-.467c-.465-.053-1.037-.052-1.714-.052zm4.503 1.748c-.215-.643-.394-1.186-.592-1.611c-.205-.442-.46-.826-.863-1.118l-.878 1.217c.12.086.236.22.381.533c.153.33.303.777.529 1.453zM4.107 5.848l.418 1.561l1.449-.388l-.418-1.562zm-.929 5.115l-1.55 1.025l.827 1.251l1.55-1.025zm1.347-3.554c.184.689.305 1.145.359 1.504c.05.34.027.518-.025.656l1.403.532c.176-.466.177-.926.105-1.409c-.069-.463-.218-1.015-.393-1.67zm-.52 4.805c.566-.374 1.043-.688 1.402-.989c.374-.313.678-.659.855-1.124l-1.403-.532c-.052.138-.152.286-.416.507c-.278.233-.67.494-1.265.887zm14.48-6.754l-.418 1.561l1.449.388l.418-1.562zm1.55 6.754l1.551 1.025l.828-1.251l-1.551-1.025zm-1.968-5.193c-.175.656-.324 1.208-.393 1.671c-.072.483-.071.944.105 1.409l1.403-.532c-.052-.138-.075-.315-.025-.656c.054-.36.175-.815.359-1.504zm2.796 3.942c-.594-.393-.987-.654-1.265-.887c-.264-.22-.364-.369-.416-.507l-1.403.532c.177.465.481.811.855 1.124c.359.301.836.616 1.402.99zM15.226 2.61l-1.32.932l.864 1.225l1.32-.93zm-5.115.89L8.615 2.398l-.89 1.206L9.22 4.707zm3.794.042c-.582.41-.968.681-1.286.855c-.302.165-.475.204-.622.203l-.017 1.5c.498.005.93-.153 1.359-.387c.41-.225.877-.555 1.43-.946zM9.22 4.707c.546.403 1.005.743 1.41.977c.423.243.853.41 1.35.416l.017-1.5c-.148-.002-.32-.045-.618-.216c-.315-.181-.695-.46-1.268-.883zm4.756 6.757a.249.249 0 0 1 .087.125l1.433-.443a1.75 1.75 0 0 0-.609-.873zm.087.125a.25.25 0 0 1 0 .148l1.433.442a1.75 1.75 0 0 0 0-1.033zm4.13-2.447l-3.7 1.533l.573 1.386l3.702-1.533zm-5.143-.274a1.746 1.746 0 0 0-1.062-.36v1.5a.24.24 0 0 1 .151.052zm-1.062-.36c-.373 0-.748.12-1.061.36l.91 1.191a.247.247 0 0 1 .152-.05zm.75.75V5.35h-1.5v3.908zm.603 4.816a.248.248 0 0 1-.084.123l.928 1.178a1.75 1.75 0 0 0 .59-.859zm-.084.123a.246.246 0 0 1-.153.053v1.5c.402 0 .78-.138 1.081-.375zm3.272 2.69l-2.24-2.592l-1.135.982l2.24 2.591zm-5.656-2.637a.246.246 0 0 1-.153-.053l-.928 1.178c.3.237.679.375 1.081.375zm-.153-.053a.248.248 0 0 1-.084-.123l-1.434.442c.108.349.317.645.59.86zM8.81 17.84l2.036-2.592l-1.18-.926l-2.035 2.591zm1.104-6.104a.25.25 0 0 1 0-.148l-1.433-.443a1.75 1.75 0 0 0 0 1.033zm0-.148a.249.249 0 0 1 .087-.125l-.911-1.191a1.749 1.749 0 0 0-.609.874zm-.425-.912L5.852 9.144l-.583 1.382l3.637 1.533z" />
                                     </svg>
